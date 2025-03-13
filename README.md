@@ -32,6 +32,31 @@ A sleek and stylish countdown timer that dynamically counts down to the upcoming
 
 - The countdown timer will automatically start counting down to the next New Year.
 
+## 📝 Special Mention
+This project was created on 13th March 2025. If you're running this project in a different year, the countdown may display incorrect results.
+
+To ensure the countdown works correctly, follow these two simple updates:
+
+**🔧 1. Update ```index.js```**
+
+In the ```index.js``` file, locate the following line:
+
+```const newYearTime = new Date("2025-01-01T00:00:00").getTime();```
+
+If you’re using this project in **2026** for the **2027** countdown, update it as follows:
+
+```const newYearTime = new Date("2027-01-01T00:00:00").getTime();```
+
+**🖥️ 2. Update ```index.html```**
+
+In the ```index.html``` file, find the following line:
+
+```<div class="year">2025</div>```
+
+Simply update the year to match your intended countdown target.
+
+By making these two small changes, your countdown timer will work seamlessly every year. 
+
 
 ## 🚀 Future Improvements(Optional)
 
