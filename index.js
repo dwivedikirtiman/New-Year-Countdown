@@ -32,8 +32,7 @@ function updateCountdown() {
     secondEl.innerText = s;
 }
 
-// Run `updateCountdown` immediately to prevent delay
+
 updateCountdown();
 
-// Corrected interval logic to refresh every second
 setInterval(updateCountdown, 1000);
