@@ -41,7 +41,7 @@ To ensure the countdown works correctly, follow these two simple updates:
 
 In the ```index.js``` file, locate the following line:
 
-```const newYearTime = new Date("2025-01-01T00:00:00").getTime();```
+```const newYearTime = new Date("2026-01-01T00:00:00").getTime();```
 
 If you’re using this project in **2026** for the **2027** countdown, update it as follows:
 
