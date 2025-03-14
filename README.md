@@ -51,7 +51,7 @@ If you’re using this project in **2026** for the **2027** countdown, update it
 
 In the ```index.html``` file, find the following line:
 
-```<div class="year">2025</div>```
+```<div class="year">2026</div>```
 
 Simply update the year to match your intended countdown target.
 
